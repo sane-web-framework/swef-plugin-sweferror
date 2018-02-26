@@ -5,7 +5,7 @@ require_once SWEF_CONFIG_PATH.'/static/Swef/SwefError.defines.php';
 
 
 // CONFIGURABLE CONSTANTS
-//require_once SWEF_CONFIG_PATH.'/user/Swef/SwefContent.config.php';
+//require_once SWEF_CONFIG_PATH.'/user/Swef/SwefError.config.php';
 
 
 // PLUGINS
