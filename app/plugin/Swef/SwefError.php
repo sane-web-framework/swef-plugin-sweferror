@@ -129,13 +129,13 @@ IS THIS NEEDED?
         $this->page->diagnosticAdd ('Pushed page error: '.$this->httpError);
         if (strlen(trim($this->httpError))) {
             $this->notify ($this->httpError);
-            $this->page->diagnosticAdd ('Sent notification');
         }
-        else {
-            $this->page->diagnosticAdd ('Notification NOT MADE');
-        }
+/*
         $this->page->template   = $this->httpTemplate;
+print_r ($this->page->template);
+die ();
         $this->page->diagnosticAdd ('Page template set to '.$this->page->template[SWEF_COL_TEMPLATE]);
+*/
         return SWEF_BOOL_FALSE;
     }
 
